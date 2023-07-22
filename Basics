@@ -1,0 +1,26 @@
+In Data Analysis What All Things We Do:  
+
+Steps 
+1-> perform EDA(exploratory data analysis)
+  ->Missing Values
+  ->Explore About the Numerical Variables
+  ->Explore About categorical Variables
+  ->Finding Relationship between features
+
+2-> basic lib of python 
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+
+3-> read file
+df=pd.read_csv('filename.csv')
+df.head()
+
+4-> which columns i have 
+df.columns
+
+5-> col and its datatype
+df.info 
+
+6-> 
+df.describe()
